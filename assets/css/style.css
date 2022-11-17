@@ -39,7 +39,7 @@ nav {
 }
 
 /* navigation links & contact form txts*/
-li, a {
+a {
   display: inline;
   padding: 0px 20px;
   text-decoration: none;
@@ -54,17 +54,18 @@ main {
   padding: 60px ;
 }
 
+/* Just Some Space */
+h3 {
+  margin: 50px;
+  }
+
 /* name, bio, video, contact headings*/
-h2, h3, h4, h5 {
+h1, h2 {
   margin: 20px;
   margin-top: 10px;
   text-align: center;
   font-size: 30px;
   font-weight: bolder;
-}
-
-h1 {
-  display: none;
 }
 
 /* My Title, Pic & caption */ 
@@ -73,22 +74,18 @@ h1 {
   margin: 0 auto;
   margin-top: 50px;
   padding: 50px;
-  width: 300px;
+  width: 550px;
   border: 5px solid var(--XTC);
   border-radius: 20px;
   background-color: var(--CMBGC);
   color: var(--WHT);
 }
 
-h6 {
-margin: 50px;
-}
-
 /* about me section */
 summary {
   margin: 0 auto;
   padding: 50px;
-  width: 300px;
+  width: 550px;
   border: 5px solid var(--XTC);
   border-radius: 20px;
   background-color: var(--CMBGC);
@@ -111,8 +108,7 @@ h3 P {
 
 #placeholder01 img {
   margin: 0 auto;
-  width: 500px;
-  height: 300px;
+  width: 550px;
   border: 5px solid var(--XTC);
   border-radius: 20px;
   background-color: var(--CMBGC);
@@ -139,12 +135,13 @@ h3 P {
 /* OPEN CONTACT ME */
 section {
   margin: 30px auto 100px auto;
-  width: 150px;
+  width: 200px;
   padding: 10px;
   border: 5px solid var(--XTC);
   border-radius: 20px;
   background-color: var(--CMBGC);
   color: var(--WHT);
+  text-align: center;
 }
 /* CLOSE CONTACT ME */
 
@@ -176,4 +173,10 @@ footer p {
   #placeholder01 img {
   width: 300px;
   }
+  #title {
+    width: 300px;
+    }
+  summary {
+    width: 300px;
+    }
 }
