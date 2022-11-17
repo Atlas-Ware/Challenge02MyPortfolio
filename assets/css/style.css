@@ -1,0 +1,179 @@
+:root {
+  --BGC:#494646;
+  --XTC:#ffef96;
+  --HFC:#50394c;
+  --TXTC:#a2a2a2;
+  --CMBGC:#8d8a89;
+  --WHT:#f4e1d2;
+  --PCH:#DDAF94;
+}
+
+
+* {
+  margin:0;
+  padding:0;  
+}
+
+body {
+  position: relative;
+  font-family: "Goudy Bookletter 1911", sans-serif;
+  font-size: 20px;
+  color: var(--TXTC);
+  background-color: var(--BGC);
+}
+
+/* OPEN HEADER */
+header {
+  position: fixed;
+  border-bottom: 20px solid var(--XTC);
+  height: 60px;
+  width: 100%;
+  line-height: 60px;
+  background-color: var(--HFC);
+  z-index: 99;
+}
+
+nav {
+  text-align: center;
+  scroll-padding: 500px;
+}
+
+/* navigation links & contact form txts*/
+li, a {
+  display: inline;
+  padding: 0px 20px;
+  text-decoration: none;
+  color: #f4e1d2;
+}
+/* CLOSE HEADER */
+
+
+/* OPEN MAIN
+Name, about me, videos, contact me*/
+main {
+  padding: 60px ;
+}
+
+/* name, bio, video, contact headings*/
+h2, h3, h4, h5 {
+  margin: 20px;
+  margin-top: 10px;
+  text-align: center;
+  font-size: 30px;
+  font-weight: bolder;
+}
+
+h1 {
+  display: none;
+}
+
+/* My Title, Pic & caption */ 
+#title {
+  text-align: center;
+  margin: 0 auto;
+  margin-top: 50px;
+  padding: 50px;
+  width: 300px;
+  border: 5px solid var(--XTC);
+  border-radius: 20px;
+  background-color: var(--CMBGC);
+  color: var(--WHT);
+}
+
+h6 {
+margin: 50px;
+}
+
+/* about me section */
+summary {
+  margin: 0 auto;
+  padding: 50px;
+  width: 300px;
+  border: 5px solid var(--XTC);
+  border-radius: 20px;
+  background-color: var(--CMBGC);
+  color: var(--WHT);
+}
+
+h2 {
+margin-top: 50px;
+}
+
+/* My Portfolio section */
+.container {
+  margin: 0 auto;
+  text-align: center;
+}
+
+h3 P {
+  padding-bottom: -20px;
+}
+
+#placeholder01 img {
+  margin: 0 auto;
+  width: 500px;
+  height: 300px;
+  border: 5px solid var(--XTC);
+  border-radius: 20px;
+  background-color: var(--CMBGC);
+}
+
+#placeholder02 img {
+  margin: 0 auto;
+  width: 300px;
+  border: 5px solid var(--XTC);
+  border-radius: 20px;
+  background-color: var(--CMBGC);
+  }
+
+#placeholder03 img {
+  margin: 0 auto;
+  width: 300px;
+  border: 5px solid var(--XTC);
+  border-radius: 20px;
+  background-color: var(--CMBGC);
+}
+/* CLOSE MAIN */
+
+
+/* OPEN CONTACT ME */
+section {
+  margin: 30px auto 100px auto;
+  width: 150px;
+  padding: 10px;
+  border: 5px solid var(--XTC);
+  border-radius: 20px;
+  background-color: var(--CMBGC);
+  color: var(--WHT);
+}
+/* CLOSE CONTACT ME */
+
+
+footer {
+  position: absolute;
+  margin-top: 0;
+  padding-bottom: 80px;
+  bottom: 0;
+  color: #FDF8F5;  
+  text-align: center;  
+  height: 60px;
+  width: 100%;
+  background-color: var(--HFC);
+}
+
+footer img {
+  position: relative;
+  width: 210px;
+  height: 69px;
+  margin-bottom: 10px;
+}
+
+footer p {
+  padding-bottom: 20px;
+}
+
+@media screen and (max-width: 1000px) {
+  #placeholder01 img {
+  width: 300px;
+  }
+}
